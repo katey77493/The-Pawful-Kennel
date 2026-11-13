@@ -1,0 +1,79 @@
+/*Overall CSS*/
+* {margin: 0px; padding: 0px; box-sizing: border-box; font-family: "Trebuchet MS";}
+h1 {color: #5798D7; padding: 10px; font-size: 55px; font-weight: lighter;}
+h2 {color: #B9C255; padding: 10px; font-size: 45px; font-weight: lighter;}
+h3 {color: #B9C255; padding: 10px; font-size: 40px; font-weight: lighter;}
+body {background-color: #FEFFF8;}
+
+/*CSS for Header*/
+header {margin: 0px; padding: 17px; background-color: #FEFFF8;}
+
+/*CSS for Nav*/
+.logo {float: left;}
+.logo_text {margin-top: 15px; font-size: 40px; font-family: "Brush Script MT"; color: #5798D7;}
+.logo_subtext {font-family: Helvetica; color: #0D3243;}
+.logo_subtext:hover {color: #5798D7;}
+nav  {margin-right: 100px; margin-bottom: 17px;}
+nav ul {list-style: none; display: flex; gap: 30px; padding: 0px; margin: 0px; float: right; font-family: Helvetica;}
+nav ul li a {text-decoration: none; color: #0D3243;}
+nav ul li a:hover {color: #5798D7;}
+nav ul li a:active {color: #B9C255;}
+
+/*CSS for Main*/
+main {margin: auto;}
+.banner {width: 100%; object-fit: cover; display: block;}
+
+/*CSS for Aside*/
+aside {padding: 20px; margin: 20px; background-color: #E6F1FA; float: left; border-radius: 25px; text-align: center; padding-bottom: 30px;}
+aside p {padding: 5px; color: #5798D7;}
+aside a {color: #5798D7; text-decoration: none;}
+aside a:hover {color: #B9C255;}
+
+/*CSS for Article*/
+article {padding: 10px; margin: 10px;}
+.about {font-family: "Brush Script MT";}
+.about:hover {color: #B9C255;}
+article p {color: #0D3243;}
+article strong {color: #5798D7;}
+article em {color: #5798D7; font-size: 10px; margin: 30px;}
+dl {padding: 10px;}
+dt {color: #B9C255; font-size: 20px;}
+dd {color: #0D3243;}
+
+/*CSS for Section Table*/
+.salon {font-family: "Brush Script MT";}
+.salon:hover {color: #5798D7;}
+.table {padding: 20px; margin: 10px;}
+.table p {color: #0D3243; padding: 5px;}
+mark {color: #5798D7; background-color: #E6F1FA;}
+table {width: 80%; margin: 10px; margin-bottom: 10px;}
+thead {background-color: #E6F1FA; color: #5798D7;}
+tbody {background-color: #F7FAE6; color: #B9C255;}
+th {padding: 15px 10px;}
+
+/*CSS for Section Form*/
+.hotel {font-family: "Brush Script MT"; text-align: center;}
+.hotel:hover {color: #5798D7;}
+.form {padding: 20px; margin: 10px; padding-left: 100px;}
+form {width: 90%;}
+form p {color: #0D3243; padding: 3px;}
+legend {color: #5798D7; font-weight: bolder; font-size: 20px;}
+fieldset {background-color: #E6F1FA; padding: 15px;}
+.form em {font-size: 10px;}
+input[type=submit] {background-color: #5798D7; color: #E6F1FA; border: 1px; border-radius: 20px; margin: 20px; padding: 15px; font-size: 25px;}
+input[type=submit]:hover {background-color: #E6F1FA; color: #5798D7; border: 1px; border-radius: 20px; margin: 20px; padding: 15px; font-size: 25px;}
+input[type=reset] {background-color: #F7FAE6; color: #B9C255; border: 1px; border-radius: 20px; margin: 20px; padding: 15px; font-size: 25px;}
+input[type=reset]:hover {background-color: #B9C255; color: #F7FAE6; border: 1px; border-radius: 20px; margin: 20px; padding: 15px; font-size: 25px;}
+
+/*CSS for Thank You Page*/
+.thankyou {padding: 20px; text-align: center; margin: 10px;}
+.thankyou h1 {color: #5798D7; font-size: 40px;}
+.thankyou a {color: #5798D7; text-decoration: none;}
+.thankyou a:hover {color: #B9C255;}
+.thankyou p {padding: 10px; color: #0D3243;}
+
+/*CSS for Footer*/
+footer {text-align: center; background-color: #B9C255; margin: auto; padding-bottom: 20px;}
+footer p {color: #FEFFF8;}
+
+

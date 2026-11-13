@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<title>Bark!</title>
+	<link rel="icon" type="image/x-icon" href="images/dog_bark.svg">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=width-device, initial scale=1.0">
+	<meta name="author" content="Katelyn Skinner">
+	<meta name="description" content="Building a Single-Page Website">
+	<meta name="keywords" content="Single-Page, Website, Grooming, Pet-Salon, Pet-Hotel">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+<!--Header & Nav--!>
+<header>
+	<img src="images/kennel_icon.svg" alt="logo" width="90" height="90" class="logo">
+	<p class="logo_text">The Pawful Kennel</p>
+	<p class="logo_subtext"> Where the Playful Paws Rest </p>
+	<nav>
+		<ul>
+			<li><a href="#about">About Us</a></li>
+			<li><a href="#salon">Walk-Ins for Paw Salon</a></li>
+			<li><a href="#hotel">Reserve a Kennel</a></li>
+		</ul>
+	</nav>
+</header>
+
+<!--Main--!>
+<main>
+<img src="images/dogbanner2.jpg" alt="dogs playing" width="1000" height="510" class="banner">
+
+<!--Aside Socials--!>
+<aside>
+	<p><strong>Follow Us on:</strong></p>
+	<br>
+	<p><a href="https://www.instagram.com/" title="Our Instagram Page"><img src="images/paw_instagram.svg" alt="instagram icon" width="40" height="40">@pawfulkennel</a></p>
+	<br>
+	<p><a href="https://www.facebook.com/" title="Our Facebook Page"><img src="images/paw_facebook.svg" alt="facebook icon" width="40" height="40">The Pawful Kennel</a></p>
+	<br>
+	<p><a href="https://www.tiktok.com/" title="Our TikTok Page"><img src="images/paw_tiktok.svg" alt="tiktok icon" width="40" height="40">@pawfulkennel</a></p>
+</aside>
+
+<!--Article About--!>
+<article>
+	<h1 id="about" class="about">Because Pups Need Vacations Too!</h1>
+	<p>Not everyday owners can satisfy their restless pups' demands. Whether it be a bubble bath, extra training or simply a restful retreat from mundane life, The Pawful Kennel is there for your pups.</p>
+	<p><strong>The Pawful Kennel</strong> is a safe retreat for all dogs, ranging from little pups to seniors. All dog breeds are accepted!&ast;</p>
+	<p>Our staff is trained and qualified to give your pets the <strong>best-pawtastic</strong> experience of their lives. We provide many services such as:</p>
+	<dl>
+	<dt>Grooming</dt>
+	<dd>Skilled in washing, drying, brushing teeth and clipping claws with high quality tools and fur-friendly products</dd>
+	<dt>Pet Sitting</dt>
+	<dd>Qualified in overseeing multiple pets at a time, along with tending to any incidents that may occur</dd>
+	<dt>Training</dt>
+	<dd>Qualified in training young dogs in basic to advance tricks and commands</dd>
+	</dl>
+	<br>
+	<p><em>Certain breeds such as Pit Bull-type, Rottweiler and Doberman Pinscher must be trained prior to reservation. Pets in this list should be accompanied with a muzzel if &lt;5 months or untrained. The Pawful Kennel will not accept any dog that is aggressive upon arrival.</em></p>
+	<br>
+</article>
+
+<!--Section1: Table--!>
+<section class="table">
+	<h2 id="salon" class="salon">Only want access to the Paw Salon? No worries!</h2>
+	<p>Below are the available times to the Paw Salon for walk-ins</p>
+	<p><mark>The Pawful Kennel works in a first-come-first-serve system and only accepts a certain number of walk-ins.</mark></p>
+	<table>
+		<thead>
+		<tr>
+			<th>Time</th>
+			<th>Mon</th>
+			<th>Tue</th>
+			<th>Wed</th>
+			<th>Thu</th>
+			<th>Fri</th>
+			<th>Sat</th>
+			<th>Sun</th>
+		</tr>
+		</thead>
+		<tbody>
+		<tr>
+			<th>8:00am-10am</th>
+			<th>Free</th>
+			<th>Free</th>
+			<th>Busy</th>
+			<th>Free</th>
+			<th>Busy</th>
+			<th>Busy</th>
+			<th>Free</th>
+		</tr>
+		<tr>
+			<th>10:00am-12:00pm</th>
+			<th>Free</th>
+			<th>Busy</th>
+			<th>Free</th>
+			<th>Free</th>
+			<th>Busy</th>
+			<th>Busy</th>
+			<th>Free</th>
+		</tr>
+		<tr>
+			<th>1:00pm-3:00pm</th>
+			<th>Busy</th>
+			<th>Busy</th>
+			<th>Free</th>
+			<th>Free</th>
+			<th>Free</th>
+			<th>Busy</th>
+			<th>Free</th>
+		</tr>
+		<tr>
+			<th>3:00pm-5:00pm</th>
+			<th>Free</th>
+			<th>Busy</th>
+			<th>Free</th>
+			<th>Free</th>
+			<th>Busy</th>
+			<th>Busy</th>
+			<th>Free</th>
+		</tr>
+		</tbody>
+	</table>
+</section>
+
+<!--Section2: Form--!>
+<section class="form">
+	<h3 id="hotel" class="hotel">What are you waiting for? Book A Spot Now!</h3>
+	<p>Reserve a kennel for your pet within a few clicks.</p>
+	<br>
+	<form method="post" action="html/thankyou.html" autocomplete="off" name="reservation">
+		<fieldset><legend>Your Information</legend>
+			<p><em>The Pawful Kennel will not share nor sell your personal information to any third-party companies.</em></p>
+			<p>Owner's First Name: <input type="text" name="firstname" id="firstname" size="25"> | Last Name: <input type="text" name="lastname" id="lastname" size="25"></p><br>
+			<p>Phone Number: <input type="tel" name="phonenumber" id="phonenumber" placeholder="+1(000)000-0000"></p>
+			<br>
+			<p><strong>In The Likely Case of an Emergency, Please Provide Another Individual for Contact:</strong></p>
+			<p>Emergency-Contact Person's Name: <input type="text" name="ecp-firstname" id="ecp-firstname" size="25"> | Last Name: <input type="text" name="ecp-lastname" id="ecp-lastname" size="25"></p>
+			<br>
+			<p>Emergency-Contact Person's Phone Number: <input type="tel" name="ecp-phone" id="ecp-phone" placeholder="+1(000)000-0000"></p>
+			<br>
+			<p>Relations: <input type="text" name="relations" id="relations" size="25"></p>
+		</fieldset>
+		<br>
+		<fieldset><legend>Your Pet Information</legend>
+			<p>Your Pet's Name: <input type="text" name="petname" id="petname" size="25"></p><br>
+			<p>Breed Type: <input type="text" name="petbreed" id="petbreed" size="25" placeholder="e.g.&apos;Golden Retriever&apos;"></p><br>
+			<p>Date of Birth:<input type="date" name="dob" id="dob"></p><br>
+			<p>Gender:
+				<input type="radio" name="gender" id="male" value="Male" checked><label for="male">Male</label>
+				<input type="radio" name="gender" id="female" value="Female"><label for="female">Female</label></p><br>
+			<p>Special Markings: <input type="text" name="spmarking" id="spmarking" size="25"> </p>
+		</fieldset>
+		<br>
+		<fieldset><legend>Important Health Details</legend>
+			<p>Does Your Pet Have Any Known Medical Conditions?<br>
+			<textarea name="medcondition" id="medcondition" rows="3" cols="30"></textarea></p>
+			<br>
+			<p>Is Your Pet Currently Under Medication?
+			<input type="radio" name="petmeds" id="yes" value="Yes"><label for="yes">Yes</label>
+			<input type="radio" name="petmeds" id="no" value="No" checked><label for="no">No</label></p>
+			<br>
+			<p>If &quot;Yes&quot;, Please Specify the Name and Purpose of Medication: <br>
+			<textarea name="purposeofmeds" id="purposeofmeds" rows="3" cols="30"></textarea></p>
+			<br>
+			<p>Does Your Pet Have Any Known Allergies<br>
+			<textarea name="allergies" id="allergies" rows="3" cols="30"></textarea></p>
+			<br>
+		</fieldset>
+		<br>
+		<fieldset><legend>Reservation for Kennel&amp;Paw Salon</legend>
+			<p>Date&amp;Time for Check-in:
+			<input type="datetime-local" name="checkin" id="checkin"></p>
+			<br>
+			<p>Date&amp;Time for Check-Out:
+			<input type="datetime-local" name="checkout" id="checkout"></p>
+			<br>
+			<p>Will You Be The Individual To Pick Up Your Pet?
+			<input type="radio" name="pickup" id="i-will-be" value="Iwill" checked><label for="i-will-be">yes</label>
+			<input type="radio" name="pickup" id="i-will-not" value="Iwillnot"><label for="i-will-not">No</label></p>
+			<br>
+			<p>If &quot;Not&quot;, Please Provide The Details of The Individual Who Will: </p> <br>
+			<p>First Name: <input type="text" name="individualfname" id="individualfname" size="25"> | Last Name: <input type="text" name="individuallname" id="individuallname" size="25"></p><br>
+			<p>Phone Number: <input type="tel" name="individualphone" id="individualphone" placeholder="+1(000)000-0000"></p><br>
+			<p>Relations: <input type="text" name="individualrelation" id="individualrelation" size="25"></p>
+			<br>
+			<br>
+			<p>Any Special Feeding Instructions: <br>
+			<textarea name="feedinginstructions" id="feedinginstructions" rows="3" cols="30"></textarea></p>
+			<br>
+			<p>Grooming Instructions:</p><br>
+			<p><input type="checkbox" name="grooming" id="g-hairtrim" value="hairtrim">&nbsp;Hair Trim
+			<input type="checkbox" name="grooming" id="g-nailtrim" value="nailtrim">&nbsp;Nail Trim
+			<input type="checkbox" name="grooming" id="g-bath" value="bath">&nbsp;bath </p>
+			<br>
+			<p>Trim Specifications:</p><br>
+			<p><input type="checkbox" name="trimdetails" id="t-long" value="long">&nbsp;Long Trim
+			<input type="checkbox" name="trimdetails" id="t-short" value="short">&nbsp;Short Trim
+			<input type="checkbox" name="trimdetails" id="t-other" value="other">&nbsp;other&ast;
+			<br><em>Upon drop-off, have a look at our options</em></p>
+			<br>
+			<p>Nail Length:</p><br>
+			<p><input type="checkbox" name="nailtrim" id="nl-long" value="naillong">&nbsp;Long
+			<input type="checkbox" name="nailtrim" id="nl-med" value="nailmedium">&nbsp;Medium
+			<input type="checkbox" name="nailtrim" id="nl-short" value="nailshort">&nbsp;Short</p>
+		</fieldset>
+		<br>
+		<fieldset><legend>Join Our Newsletter</legend>
+			<p>Will you like to subscribe to our newsletter for events and community news? If so, provide your email below:<br>
+			<input type="email" name="email" placeholder="youremail@email.com"></p>
+		</fieldset>
+		<input type="submit" value="Book"> <input type="reset" value="Reset">
+	</form>
+</section>
+</main>
+
+<!--Footer--!>
+<footer>
+<br>
+	<p> &copy;2026 The Pawful Kennel. All Rights Reserved</p>
+	<p>Contact Us: 1(868)-000-0000 &nbsp;|&nbsp;Located on #77 Paws Street, Critter City</p>
+	<p>Images Sourced from Pexels&reg; &nbsp;|&nbsp; Fonts and Certain Icons Sourced from Google Fonts&reg;</p>
+</footer>
+</body>
+</html>
